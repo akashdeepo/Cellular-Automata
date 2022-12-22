@@ -12,9 +12,12 @@ The rules for the Game of Life are:
 4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 FUTURE WORK
+
 #TODO 
+
 Use ML to Predict Future States
-----------------------------------------------------%% Idea generated using ChatGPT %%--------------------------------------------------------------------------------
+
+----------------------------%% Idea generated using ChatGPT %%------------------------------------------------
 
 1. Collect a dataset of initial states and corresponding future states of the game. This dataset will be used to train the predictive model. You can generate this dataset by running the Game of Life simulation multiple times and storing the initial and final states of the game. Make sure to include a diverse range of initial states in the dataset to ensure that the model generalizes well.
 
@@ -29,4 +32,4 @@ Use ML to Predict Future States
 6. Evaluate the model. After training the model, you can use the test data to evaluate its performance. You can use metrics such as accuracy, precision, and recall to assess the model's ability to correctly predict the future state of the game.
 
 7. Fine-tune the model. If the model's performance is not satisfactory, you may need to fine-tune the model by adjusting its hyperparameters or using a different model altogether. You can use techniques such as cross-validation and grid search to find the best hyperparameter values.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
